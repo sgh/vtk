@@ -32,6 +32,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string>
+#include <string.h>
 #include <math.h>
 #include <algorithm>
 #if defined(__BORLANDC__)

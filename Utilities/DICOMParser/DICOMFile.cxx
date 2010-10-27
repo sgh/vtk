@@ -24,6 +24,7 @@
 
 #include <stdio.h>
 #include <string>
+#include <string.h>
 
 #include "DICOMConfig.h"
 #include "DICOMFile.h"
