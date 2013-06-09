@@ -229,7 +229,7 @@ nm libvtkpng.a |grep " [TR] "
 #define png_set_gAMA vtk_png_set_gAMA
 #define png_set_gAMA_fixed vtk_png_set_gAMA_fixed
 #define png_set_gamma vtk_png_set_gamma
-#define png_set_gray_1_2_4_to_8 vtk_png_set_gray_1_2_4_to_8
+#define png_set_expand_gray_1_2_4_to_8 vtk_png_set_gray_1_2_4_to_8
 #define png_set_gray_to_rgb vtk_png_set_gray_to_rgb
 #define png_set_hIST vtk_png_set_hIST
 #define png_set_iCCP vtk_png_set_iCCP

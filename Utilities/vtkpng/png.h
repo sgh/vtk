@@ -1330,7 +1330,7 @@ extern PNG_EXPORT(void,png_convert_from_time_t) PNGARG((png_timep ptime,
 #if defined(PNG_READ_EXPAND_SUPPORTED)
 /* Expand data to 24-bit RGB, or 8-bit grayscale, with alpha if available. */
 extern PNG_EXPORT(void,png_set_expand) PNGARG((png_structp png_ptr));
-extern PNG_EXPORT(void,png_set_gray_1_2_4_to_8) PNGARG((png_structp png_ptr));
+extern PNG_EXPORT(void,png_set_expand_gray_1_2_4_to_8) PNGARG((png_structp png_ptr));
 extern PNG_EXPORT(void,png_set_palette_to_rgb) PNGARG((png_structp png_ptr));
 extern PNG_EXPORT(void,png_set_tRNS_to_alpha) PNGARG((png_structp png_ptr));
 #endif
